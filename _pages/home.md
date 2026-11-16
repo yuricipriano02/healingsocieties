@@ -25,6 +25,12 @@ permalink: /
 
 Introduce your research in a few sentences. This first paragraph is set slightly larger than the rest.
 
+<!-- Callout box: callout-success, callout-warning, or callout-info -->
+<div class="callout callout-success" markdown="0">
+<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
+<p>One or two sentences.</p>
+</div>
+
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
 ## Selected publications
