@@ -27,8 +27,8 @@ Introduce your research in a few sentences. This first paragraph is set slightly
 
 <!-- Callout box: callout-success, callout-warning, or callout-info -->
 <div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
-<p>One or two sentences.</p>
+<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Intergroup Relations and Social Change research group</div>
+<p>Research funders: European Research Council (ERC), Vetenskapsrådet, Riksbankens Jubileumsfond and Swiss National Science Foundation (SNSF).</p>
 </div>
 
 <!-- Banner image with caption; place the image in images/ -->
