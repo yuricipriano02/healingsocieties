@@ -23,7 +23,7 @@ permalink: /
 <a href="{{ '/research' | relative_url }}" class="chip">Social Identity</a>
 </div>
 
-Introduce your research in a few sentences. This first paragraph is set slightly larger than the rest.
+Our research aims to understand the psychological processes and mechanisms of improving intergroup relations in societies affected or threatened by conflict. Using experimental methods across different social contexts, we study attitudes and emotions in order to develop effective intergroup interventions that promote positive social change.
 
 <!-- Callout box: callout-success, callout-warning, or callout-info -->
 <div class="callout callout-success" markdown="0">
@@ -49,4 +49,4 @@ Introduce your research in a few sentences. This first paragraph is set slightly
 
 ## About me
 
-Your biography goes here. The README shows how to add research-area chips, callout boxes, and a banner image.
+I am a Full Professor of Social Psychology at Stockholm University, where I lead the research group on Intergroup Relations and Social Change. My research focuses on improving intergroup relations in contexts of conflict. It is supported by various governmental research councils and agencies, including the European Research Council, the Swedish Research Council, Riksbankens Jubileumsfond, ESRC, and the British Academy. In addition to my research, I serve as an Associate Editor for Peace and Conflict: Journal of Peace Psychology and as a Consulting Editor for the Journal of Personality and Social Psychology, European Journal of Social Psychology, and Political Psychology. I also teach courses in social and political psychology, with a particular focus on group processes and intergroup relations.
