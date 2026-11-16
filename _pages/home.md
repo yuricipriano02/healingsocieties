@@ -31,6 +31,12 @@ Introduce your research in a few sentences. This first paragraph is set slightly
 <p>One or two sentences.</p>
 </div>
 
+<!-- Banner image with caption; place the image in images/ -->
+<div class="banner-frame" markdown="0">
+<img src="{{ '/images/banner.webp' | relative_url }}" alt="Describe the image" width="1400" height="449" loading="lazy">
+<div class="banner-caption">Healing Societies</div>
+</div>
+
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
 {% if selected contains "pub-entry" %}
 ## Selected publications
