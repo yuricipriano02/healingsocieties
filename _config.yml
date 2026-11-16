@@ -1,9 +1,9 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Healing Societies"
+name: "HEALING SOCIETIES"
 title: "by Sabina Cehajic-Clancy"
-institution: "Stockholm University"
+institution: "Professor (Full) | Stockholm University"
 email: sabina.cehajic-clancy@psychology.su.se
 photo: placeholder.svg  # place your photo in images/ and update this
 
@@ -11,12 +11,12 @@ photo: placeholder.svg  # place your photo in images/ and update this
 # STEP 2: Your Links (optional -- leave blank to hide an icon)
 # ============================================================
 links:
-  google_scholar: ""
+  google_scholar: "https://scholar.google.it/citations?user=0t_a13sAAAAJ&hl=it&oi=ao"
   github: ""
-  researchgate: ""
+  researchgate: "https://www.researchgate.net/profile/Sabina-Cehajic-Clancy/2"
   orcid: ""
   twitter: ""
-  linkedin: ""
+  linkedin: "https://se.linkedin.com/in/sabina-cehajic-clancy-606a1b157"
   cv: ""  # e.g., "papers/cv.pdf"
 
 # ============================================================
