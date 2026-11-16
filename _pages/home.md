@@ -7,6 +7,22 @@ permalink: /
 <h1 class="home-hero">{{ site.name }}</h1>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
+<!-- Research-area chips (link to /research) -->
+<div class="chip-container" markdown="0">
+<a href="{{ '/research' | relative_url }}" class="chip">Social Psychology</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Conflict and Reconciliation</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Emotions</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Interventions</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Group Dynamics</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Dehumanization</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Victimization</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Empathy</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Intergroup Relations</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Social Emotions</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Forgiveness</a>
+<a href="{{ '/research' | relative_url }}" class="chip">Social Identity</a>
+</div>
+
 Introduce your research in a few sentences. This first paragraph is set slightly larger than the rest.
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
