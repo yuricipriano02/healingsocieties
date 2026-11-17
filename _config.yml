@@ -62,7 +62,7 @@ nav_pages:
 # Your name is bolded in the publication list. Write it exactly as it
 # appears in the rendered list ("Last, F. M."); list the longest form first.
 scholar:
-  last_name: Čehajić-Clancy, Čehajić, Cehajic-Clancy, Cehajic
+  last_name: Čehajić
   first_name: ["S."]
   style: citesty
   locale: en
