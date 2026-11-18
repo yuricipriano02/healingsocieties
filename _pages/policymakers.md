@@ -1,10 +1,10 @@
 ---
-title: "Blog"
+title: "Policymakers"
 layout: page
-permalink: /blog/
+permalink: /policymakers/
 ---
 
-# Blog
+# Policymakers
 
 {% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
