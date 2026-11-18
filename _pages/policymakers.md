@@ -16,5 +16,5 @@ permalink: /policymakers/
 {% endfor %}
 </div>
 {% else %}
-<p class="text-muted">No blog posts yet.</p>
+<p class="text-muted">No posts yet.</p>
 {% endif %}
