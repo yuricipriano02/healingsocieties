@@ -11,15 +11,9 @@ permalink: /
 <div class="chip-container" markdown="0">
 <a href="{{ '/research' | relative_url }}" class="chip">Social Psychology</a>
 <a href="{{ '/research' | relative_url }}" class="chip">Conflict and Reconciliation</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Emotions</a>
 <a href="{{ '/research' | relative_url }}" class="chip">Interventions</a>
 <a href="{{ '/research' | relative_url }}" class="chip">Group Dynamics</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Dehumanization</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Victimization</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Empathy</a>
 <a href="{{ '/research' | relative_url }}" class="chip">Intergroup Relations</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Social Emotions</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Forgiveness</a>
 <a href="{{ '/research' | relative_url }}" class="chip">Social Identity</a>
 </div>
 
