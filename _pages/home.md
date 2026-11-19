@@ -7,14 +7,14 @@ permalink: /
 <h1 class="home-hero">{{ site.name }}</h1>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
-<!-- Research-area chips (link to /research) -->
+<!-- Research-area chips (link to /projects) -->
 <div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Social Psychology</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Conflict and Reconciliation</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Interventions</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Group Dynamics</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Intergroup Relations</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Social Identity</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Social Psychology</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Conflict and Reconciliation</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Interventions</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Group Dynamics</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Intergroup Relations</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Social Identity</a>
 </div>
 
 <!-- Banner image with caption; place the image in images/ -->
