@@ -40,7 +40,3 @@ Our research aims to understand the psychological processes and mechanisms of im
 <p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
 </div>
 {% endif %}
-
-## About me
-
-I am a Full Professor of Social Psychology at Stockholm University, where I lead the research group on Intergroup Relations and Social Change. My research focuses on improving intergroup relations in contexts of conflict. It is supported by various governmental research councils and agencies, including the European Research Council, the Swedish Research Council, Riksbankens Jubileumsfond, ESRC, and the British Academy. In addition to my research, I serve as an Associate Editor for Peace and Conflict: Journal of Peace Psychology and as a Consulting Editor for the Journal of Personality and Social Psychology, European Journal of Social Psychology, and Political Psychology. I also teach courses in social and political psychology, with a particular focus on group processes and intergroup relations.
