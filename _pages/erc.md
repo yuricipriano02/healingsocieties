@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ERC
-permalink: /research/erc/
+permalink: /projects/erc/
 ---
 
 Write your extended research description, figures, and details here.
