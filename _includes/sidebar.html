@@ -2,8 +2,8 @@
 <a href="{{ '/about' | relative_url }}">
 <img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="profile-photo" alt="{{ site.name }}" width="140" height="140" fetchpriority="high">
 </a>
-<p class="Sabina Cehajic-Clancy">{{ site.name }}</p>
-<p class="Principal Investigator">{{ site.title }}</p>
+<p class="project-name">{{ site.name }}</p>
+<p class="project-title">{{ site.title }}</p>
 <p class="profile-institution">{{ site.institution }}</p>
 <div class="profile-links">
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
