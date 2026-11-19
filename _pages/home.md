@@ -17,18 +17,18 @@ permalink: /
 <a href="{{ '/research' | relative_url }}" class="chip">Social Identity</a>
 </div>
 
+<!-- Banner image with caption; place the image in images/ -->
+<div class="banner-frame" markdown="0">
+<img src="{{ '/images/banner/banner.webp' | relative_url }}" alt="Describe the image" width="1400" height="449" loading="lazy">
+<div class="banner-caption">Healing Societies</div>
+</div>
+
 Our research aims to understand the psychological processes and mechanisms of improving intergroup relations in societies affected or threatened by conflict. Using experimental methods across different social contexts, we study attitudes and emotions in order to develop effective intergroup interventions that promote positive social change.
 
 <!-- Callout box: callout-success, callout-warning, or callout-info -->
 <div class="callout callout-success" markdown="0">
 <div class="callout-title">{% include icon.html name="award" class="callout-icon" %} </div>
 <p></p>
-</div>
-
-<!-- Banner image with caption; place the image in images/ -->
-<div class="banner-frame" markdown="0">
-<img src="{{ '/images/banner/banner.webp' | relative_url }}" alt="Describe the image" width="1400" height="449" loading="lazy">
-<div class="banner-caption">Healing Societies</div>
 </div>
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
