@@ -12,6 +12,7 @@ permalink: /team/
 <div>
 <h3 class="pi-name">{{ site.card_name }}</h3>
 <p style="font-style: italic; color: var(--text-secondary);">{{ site.card_title }}, {{ site.institution }}</p>
+  <p class="team-bio" style="margin-top: 0.75rem;">Scrivi qui la biografia della PI che vuoi far apparire all'interno della carta.</p>
 <div class="pi-links">
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
 {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
