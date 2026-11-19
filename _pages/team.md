@@ -12,7 +12,7 @@ permalink: /team/
 <div>
 <h3 class="pi-name">{{ site.card_name }}</h3>
 <p style="font-style: italic; color: var(--text-secondary);">{{ site.card_title }}, {{ site.institution }}</p>
-  <p class="team-bio" style="margin-top: 0.75rem;">Scrivi qui la biografia della PI che vuoi far apparire all'interno della carta.</p>
+  <p class="team-bio" style="margin-top: 0.75rem;">I am a Full Professor of Social Psychology at Stockholm University, where I lead the research group on Intergroup Relations and Social Change. My research focuses on improving intergroup relations in contexts of conflict. It is supported by various governmental research councils and agencies, including the European Research Council, the Swedish Research Council, Riksbankens Jubileumsfond, ESRC, and the British Academy. In addition to my research, I serve as an Associate Editor for Peace and Conflict: Journal of Peace Psychology and as a Consulting Editor for the Journal of Personality and Social Psychology, European Journal of Social Psychology, and Political Psychology. I also teach courses in social and political psychology, with a particular focus on group processes and intergroup relations.</p>
 <div class="pi-links">
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
 {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
