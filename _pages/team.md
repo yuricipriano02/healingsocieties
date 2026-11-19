@@ -4,9 +4,6 @@ layout: page
 permalink: /team/
 ---
 
-# Team
-
-
 ## PI
 
 <div class="section-card">
