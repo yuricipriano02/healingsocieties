@@ -21,8 +21,8 @@ Our research aims to understand the psychological processes and mechanisms of im
 
 <!-- Callout box: callout-success, callout-warning, or callout-info -->
 <div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Intergroup Relations and Social Change research group</div>
-<p>Research funders: European Research Council (ERC), Vetenskapsrådet, Riksbankens Jubileumsfond and Swiss National Science Foundation (SNSF).</p>
+<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} </div>
+<p></p>
 </div>
 
 <!-- Banner image with caption; place the image in images/ -->
