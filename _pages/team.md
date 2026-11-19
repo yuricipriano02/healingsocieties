@@ -4,7 +4,7 @@ layout: page
 permalink: /team/
 ---
 
-## PI
+# PI
 
 <div class="section-card">
 <div class="pi-card">
