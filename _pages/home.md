@@ -31,7 +31,7 @@ Our research aims to understand the psychological processes and mechanisms of im
     <div class="callout-title">Department of Psychology — Campus Albano</div>
     <p style="margin: 0;">Albanovägen 12, House 4, 114 19 Stockholm, Sweden</p>
   </div>
-  <a href="https://google.com" target="_blank" rel="noopener" class="chip">Open in Google Maps →</a>
+  <a href="https://www.google.com/maps/place/Department+of+Psychology+-+Stockholm+University/@59.3552945,18.0556447,17z/data=!3m1!4b1!4m6!3m5!1s0x465f9d0f1f8233af:0x83225cd81274bb19!8m2!3d59.3552945!4d18.058225!16s%2Fg%2F1hc3dqc0j?entry=ttu&g_ep=EgoyMDI2MTExNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" class="chip">Open in Google Maps →</a>
 </div>
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
