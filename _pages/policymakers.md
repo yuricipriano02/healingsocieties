@@ -6,6 +6,18 @@ permalink: /policymakers/
 
 # Policymakers
 
+<div style="width: 100%; border-radius: 8px; overflow: hidden; margin: 1.5rem 0;">
+  <iframe 
+    src="https://google.com" 
+    width="100%" 
+    height="350" 
+    style="border: 0; display: block;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
 {% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
 {% for post in site.posts %}
