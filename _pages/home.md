@@ -26,9 +26,12 @@ permalink: /
 Our research aims to understand the psychological processes and mechanisms of improving intergroup relations in societies affected or threatened by conflict. Using experimental methods across different social contexts, we study attitudes and emotions in order to develop effective intergroup interventions that promote positive social change.
 
 <!-- Callout box: callout-success, callout-warning, or callout-info -->
-<div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} </div>
-<p></p>
+<div class="callout callout-info" markdown="0" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+  <div>
+    <div class="callout-title">Department of Psychology — Campus Albano</div>
+    <p style="margin: 0;">Albanovägen 12, House 4, 114 19 Stockholm, Sweden</p>
+  </div>
+  <a href="https://google.com" target="_blank" rel="noopener" class="chip">Open in Google Maps →</a>
 </div>
 
 {% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
