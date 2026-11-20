@@ -6,16 +6,12 @@ permalink: /policymakers/
 
 # Policymakers
 
-<div style="width: 100%; border-radius: 8px; overflow: hidden; margin: 1.5rem 0;">
-  <iframe 
-    src="https://google.com" 
-    width="100%" 
-    height="350" 
-    style="border: 0; display: block;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
+<div class="callout callout-info" markdown="0" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+  <div>
+    <div class="callout-title">Department of Psychology — Campus Albano</div>
+    <p style="margin: 0;">Albanovägen 12, House 4, 114 19 Stockholm, Sweden</p>
+  </div>
+  <a href="https://google.com" target="_blank" rel="noopener" class="chip">Open in Google Maps →</a>
 </div>
 
 {% if site.posts.size > 0 %}
