@@ -32,7 +32,7 @@ permalink: /team/
 </div>
 
 {% if site.data.team_members.size > 0 %}
-## Students
+## Members
 
 <div class="team-grid">
 {% for member in site.data.team_members %}
