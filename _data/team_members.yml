@@ -3,3 +3,17 @@
 # Each entry needs: name, photo, info
 # Optional: email, website, scholar, github
 # Photos go in images/ or images/team/
+- name: Zaur Afandiyev
+  photo: zaur.jpg
+  info: PhD Student, Psychology
+  email: zaur.afandiyev@su.se
+  website: https://www.su.se/english/profiles/z/zaaf5777
+  scholar: https://scholar.google.com/citations?user=XMyv-F0AAAAJ&hl=ru
+
+  - name: Erik Bojerud
+  photo: erik.jpg
+  info: PhD Student, Psychology
+  email: erik.bojerud@su.se
+  website: https://www.su.se/english/profiles/e/erbo9876
+  scholar: https://scholar.google.com/citations?user=q0_2860AAAAJ&hl=sv
+
