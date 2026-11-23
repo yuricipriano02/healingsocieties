@@ -6,14 +6,14 @@ permalink: /team/
 
 # PI
 
-<div class="section-card">
+<div class="section-card" style="position: relative;">
 <div class="pi-card">
-<img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="pi-photo" alt="{{ site.name }}" width="160" height="160">
+<img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="pi-photo" alt="{{ site.card_name }}" width="160" height="160">
 <div>
-<h3 class="pi-name">{{ site.card_name }}</h3>
+<h3 class="pi-name"><a href="https://www.su.se/english/profiles/s/sace4538" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;">{{ site.card_name }}<span style="position: absolute; inset: 0; z-index: 1;"></span></a></h3>
 <p style="font-style: italic; color: var(--text-secondary);">{{ site.card_title }}, {{ site.institution }}</p>
-  <p class="team-bio" style="margin-top: 0.75rem;"></p>
-<div class="pi-links">
+<p class="team-bio" style="margin-top: 0.75rem;"></p>
+<div class="pi-links" style="position: relative; z-index: 2;">
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
 {% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
 {% if site.links.cv and site.links.cv != "" %}<a href="{{ site.links.cv | prepend: '/' | relative_url }}" class="icon-link" title="CV" aria-label="CV">{% include icon.html name="cv" %}</a>{% endif %}
@@ -30,6 +30,7 @@ permalink: /team/
 </div>
 </div>
 </div>
+
 
 {% if site.data.team_members.size > 0 %}
 ## Members
