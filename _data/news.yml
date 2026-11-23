@@ -2,3 +2,6 @@
 # News items shown on the home page sidebar.
 # The 3 most recent are shown; all appear on /allnews.
 # Each entry needs: date, headline
+
+- date: 27 May, 2026
+  headline: "Half-time seminar, with Zaur Afandiyev"
