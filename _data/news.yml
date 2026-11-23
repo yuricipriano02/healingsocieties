@@ -4,4 +4,5 @@
 # Each entry needs: date, headline
 
 - date: 27 May, 2026
-  headline: "[Half-time seminar](https://www.su.se/english/divisions/department-of-psychology/calendar/events/2026-05-11-half-time-seminar-with-zaur-afandiyev), with Zaur Afandiyev"
+  headline: '<a href="https://www.su.se/english/divisions/department-of-psychology/calendar/events/2026-05-11-half-time-seminar-with-zaur-afandiyev">Half-time seminar</a>, with Zaur Afandiyev'
+
