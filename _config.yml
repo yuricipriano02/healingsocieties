@@ -53,7 +53,8 @@ nav_pages:
   - name: projects
   - name: publications
   - name: policymakers
-  - name: allnews 'label: News'
+  - name: allnews
+  label: News
 
 # ============================================================
 # STEP 5: Publications (assets/ref.bib)
