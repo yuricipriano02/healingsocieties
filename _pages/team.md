@@ -23,7 +23,7 @@ permalink: /team/
 {% if site.data.pi[0].education %}
 <ul style="margin-top: var(--space-4);">
 {% for education in site.data.pi[0].education %}
-<li>{{ education | replace: "-","&#8211;" }}</li>
+<li>{{ education | replace: "-","–" }}</li>
 {% endfor %}
 </ul>
 {% endif %}
@@ -36,13 +36,20 @@ permalink: /team/
 
 <div class="team-grid">
 {% for member in site.data.team_members %}
-<div class="team-card">
+<div class="team-card" style="position: relative;">
 <img src="{{ member.photo | prepend: '/images/' | relative_url }}" class="team-photo" alt="{{ member.name }}" width="100" height="100" loading="lazy">
-<h3 class="team-name">{{ member.name }}</h3>
+<h3 class="team-name">
+{% if member.website %}
+<a href="{{ member.website | relative_url }}" style="text-decoration: none; color: inherit;">{{ member.name }}<span style="position: absolute; inset: 0; z-index: 1;"></span></a>
+{% else %}
+{{ member.name }}
+{% endif %}
+</h3>
 <p class="team-info">{{ member.info }}</p>
-<div class="team-links">
+{% if member.bio %}<p class="team-bio" style="font-size: 0.9rem; margin-top: 0.5rem;">{{ member.bio }}</p>{% endif %}
+<div class="team-links" style="position: relative; z-index: 2;">
 {% if member.email %}<a href="mailto:{{ member.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
-{% if member.website %}<a href="{{ member.website }}" class="icon-link" title="Website" aria-label="Website">{% include icon.html name="house" %}</a>{% endif %}
+{% if member.website %}<a href="{{ member.website | relative_url }}" class="icon-link" title="Website" aria-label="Website">{% include icon.html name="house" %}</a>{% endif %}
 {% if member.scholar %}<a href="{{ member.scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
 {% if member.github %}<a href="{{ member.github }}" class="icon-link" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a>{% endif %}
 </div>
@@ -71,4 +78,3 @@ permalink: /team/
 </table>
 </div>
 {% endif %}
-
