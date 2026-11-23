@@ -6,8 +6,6 @@ permalink: /projects/
 
 # Projects
 
-Describe your projects here. Each card below is a project; copy the block to add more.
-
 <div class="research-grid">
 
 <div class="research-card" style="position: relative;">
