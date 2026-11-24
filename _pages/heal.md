@@ -21,15 +21,7 @@ This project aims to systematically examine the impact of social context on the 
 Project description:
 The overarching aim of this project is to systematically examine the influence of crucial and pre-existing contextual features on the effectiveness, processes, and durability of intergroup interventions.
 
-These contextual factors include
-
-a. the degree of conflict and perceived threat,
-
-b. the degree of integration vs. segregation within the communities in which people live,
-
-c. ethnic majorities vs. minorities, and
-
-d. social norms.
+These contextual factors include: The degree of conflict and perceived threat, the degree of integration vs. segregation within the communities in which people live, ethnic majorities vs. minorities, and social norms.
 
 The project consists of four sequential work packages (WP). In WP1 and WP2, we will conduct large-scale longitudinal online experiments in different countries affected by conflict. These studies will test and compare the effectiveness, processes, and durability of established (WP1) and optimized (WP2) interventions on intergroup attitudes and real-life behaviors of ethnic majorities and minorities living in different social contexts.
 
