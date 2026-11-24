@@ -6,7 +6,7 @@ permalink: /policymakers/
 
 # Policymakers
 
-[Choosing Intergroup Interventions Across Contact Ecologies]({{ '/assets/assets/44666_2_supp_345048_tlvdcd.htm' | relative_url }}){:target="_blank"}
+[Choosing Intergroup Interventions Across Contact Ecologies]({{ '/assets/44666_2_supp_345048_tlvdcd.htm' | relative_url }}){:target="_blank"}
 
 {% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
