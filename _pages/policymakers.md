@@ -6,7 +6,7 @@ permalink: /policymakers/
 
 # Policymakers
 
-[Open the interactive figure in a new tab →]({{ '/assets/figure1.htm' | relative_url }}){:target="_blank"}
+[Choosing Intergroup Interventions Across Contact Ecologies]({{ '/assets/assets/44666_2_supp_345048_tlvdcd.htm' | relative_url }}){:target="_blank"}
 
 {% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
@@ -18,5 +18,5 @@ permalink: /policymakers/
 {% endfor %}
 </div>
 {% else %}
-<p class="text-muted">Choosing Intergroup Interventions Across Contact Ecologies</p>
+<p class="text-muted">No posts yet.</p>
 {% endif %}
