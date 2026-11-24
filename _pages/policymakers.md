@@ -6,6 +6,16 @@ permalink: /policymakers/
 
 # Policymakers
 
+<div style="margin: 2rem 0;">
+  <iframe 
+    src="{{ '/assets/44666_2_supp_345048_tlvdcd.htm' | relative_url }}" 
+    width="100%" 
+    height="500px" 
+    style="border: 1px solid #e5e7eb; border-radius: 6px;" 
+    title="Choosing Intergroup Interventions Across Contact Ecologies.">
+  </iframe>
+</div>
+
 {% if site.posts.size > 0 %}
 <div class="section-card" markdown="0">
 {% for post in site.posts %}
