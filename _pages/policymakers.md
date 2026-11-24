@@ -7,7 +7,6 @@ permalink: /policymakers/
 # Policymakers
 
 Choosing Intergroup Interventions Across Contact Ecologies:
-
 <div style="margin: 2rem 0;">
   <iframe 
     src="{{ '/assets/44666_2_supp_345048_tlvdcd.htm' | relative_url }}" 
