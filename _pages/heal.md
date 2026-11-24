@@ -22,8 +22,8 @@ The overarching aim of this project is to systematically examine the influence o
 
 The project consists of four sequential work packages (WP). In WP1 and WP2, we will conduct large-scale longitudinal online experiments in different countries affected by conflict. These studies will test and compare the effectiveness, processes, and durability of established (WP1) and optimized (WP2) interventions on intergroup attitudes and real-life behaviors of ethnic majorities and minorities living in different social contexts. In WP3, using field experiments, the most effective intergroup interventions will be incorporated into participants’ real lives through intergroup contact and multi-media. After establishing the impact of the social context on improving intergroup relations in the real world, we aim to develop a theoretical framework for improving intergroup relations in contexts of conflict (WP4).
 
-## Project managers:
-Sabina Cehajic-Clancy (Stockholm University).
-
-## Project members:
-Zaur Afandiyev (Stockholm University), Rezarta Bilali (New York University, Steinhardt), Michal Bilewicz (University of Warsaw), Erik Bojerud (Stockholm University), Eran Halperin (Hebrew University of Jerusalem), Sammyh Khan (Örebro University), Noemi Orabona (University of Trento, Italy), Alexandra Scacco (Berlin Social Science Center, WZB).
+<!-- Callout box: callout-success, callout-warning, or callout-info -->
+<div class="callout callout-success" markdown="0">
+<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Project members:</div>
+<p>Sabina Cehajic-Clancy (Stockholm University), Zaur Afandiyev (Stockholm University), Rezarta Bilali (New York University, Steinhardt), Michal Bilewicz (University of Warsaw), Erik Bojerud (Stockholm University), Eran Halperin (Hebrew University of Jerusalem), Sammyh Khan (Örebro University), Noemi Orabona (University of Trento, Italy), Alexandra Scacco (Berlin Social Science Center, WZB).</p>
+</div>
