@@ -8,14 +8,12 @@ permalink: /projects/heal/
 
 Healing Societies: The Impact of Social Context on Intergroup Reconciliation.
 
-## Project period:
-01-05-2024 - 01-06-2029
-
-## Status:
-Ongoing
-
-## Funding:
-European Research Council
+<!-- Research-area chips (link to /research) -->
+<div class="chip-container" markdown="0">
+<a href="{{ '/projects' | relative_url }}" class="chip">Project period: 01-05-2024 - 01-06-2029</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Status: Ongoing</a>
+<a href="{{ '/projects' | relative_url }}" class="chip">Funding: European Research Council</a>
+</div>
 
 ## Project description:
 Intergroup conflicts are increasingly rising and their harmful effects often endure even after peace agreements have been reached. This underscores the need to identify evidence-based and effective interventions to improve intergroup relations in contexts affected or threatened by conflict. Even though intervention effectiveness and outcomes depend on the context in which people live, most empirical research on intergroup interventions has ignored the impact of social context. This project aims to systematically examine the impact of social context on the effectiveness, processes, and durability of well-established intergroup interventions using large-scale online and field experiments. Ultimately, this project aims to identify effective interventions that fit a variety of social contexts and thus provide evidence-based tools for peace-building and conflict prevention.
