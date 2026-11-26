@@ -51,3 +51,6 @@
 @import "utilities/dark-mode";
 @import "utilities/animations";
 @import "utilities/print";
+
+// Editorial redesign overrides — intentionally loaded last.
+@import "layouts/editorial";
