@@ -1,0 +1,210 @@
+// Healing Societies — editorial research-lab visual system
+// Layered after the site's existing components so content and behavior remain intact.
+
+:root {
+  --accent-base: #31545a;
+  --accent: #31545a;
+  --accent-hover: #233f44;
+  --accent-light: rgba(49, 84, 90, 0.09);
+  --bg-primary: #f5f3ed;
+  --bg-secondary: #ebe8df;
+  --bg-card: #fffefa;
+  --text-primary: #24383b;
+  --text-secondary: #536365;
+  --text-muted: #788486;
+  --border-color: #dedfd7;
+  --shadow-sm: 0 2px 8px rgba(35, 54, 57, 0.045);
+  --shadow-md: 0 8px 24px rgba(35, 54, 57, 0.075);
+  --shadow-lg: 0 18px 42px rgba(35, 54, 57, 0.12);
+  --container-max: 1200px;
+  --radius-sm: 0.35rem;
+  --radius-md: 0.65rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.35rem;
+}
+
+[data-bs-theme="dark"] {
+  --accent: #a9c5bd;
+  --accent-hover: #c1d8d0;
+  --accent-light: rgba(169, 197, 189, 0.12);
+  --bg-primary: #1c292b;
+  --bg-secondary: #243336;
+  --bg-card: #293a3d;
+  --text-primary: #edf0e9;
+  --text-secondary: #c0cbc7;
+  --text-muted: #9cadaa;
+  --border-color: #3a4b4d;
+}
+
+body {
+  background: var(--bg-primary);
+  letter-spacing: 0.005em;
+}
+
+.site-container {
+  padding-top: clamp(2.5rem, 5vw, 4.75rem);
+  padding-bottom: 1rem;
+}
+
+.navbar {
+  min-height: 76px;
+  padding: 0.85rem 1.5rem;
+  background: rgba(245, 243, 237, 0.92) !important;
+  border-bottom-color: rgba(49, 84, 90, 0.13);
+}
+[data-bs-theme="dark"] .navbar {
+  background: rgba(28, 41, 43, 0.94) !important;
+}
+.navbar > .container { max-width: var(--container-max) !important; }
+.navbar-brand {
+  font-size: 1.12rem;
+  letter-spacing: -0.035em;
+}
+.navbar-brand img { width: 28px; height: 28px; margin-right: 0.35rem; }
+.nav-link {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-weight: 600;
+}
+.nav-link.active::after { height: 2px; }
+
+.home-grid {
+  grid-template-columns: minmax(0, 1fr) 292px;
+  gap: clamp(2rem, 4.5vw, 4.5rem);
+}
+.home-content { min-width: 0; }
+.home-hero {
+  max-width: 13ch;
+  font-size: clamp(3.2rem, 6vw, 5.6rem);
+  line-height: 0.99;
+  letter-spacing: -0.055em;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+.home-hero-sub {
+  max-width: 38rem;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  line-height: 1.65;
+  color: var(--text-muted);
+  margin-bottom: 1.7rem;
+}
+.home-content > p:first-of-type {
+  max-width: 66ch;
+  font-size: 1.08rem;
+  line-height: 1.9;
+  color: var(--text-secondary);
+}
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1.7rem 0 2rem;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.15rem;
+  padding: 0.38rem 0.85rem;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  text-decoration: none;
+  transition: color var(--transition-fast), background var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast);
+}
+.chip:hover {
+  color: var(--bg-card);
+  background: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+.banner-frame {
+  margin: 2.4rem 0;
+  border: 0;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  background: var(--bg-secondary);
+}
+.banner-frame img {
+  width: 100%;
+  aspect-ratio: 2.35 / 1;
+  object-fit: cover;
+}
+.callout {
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  padding: 1.2rem 1.35rem;
+  box-shadow: var(--shadow-sm);
+}
+.callout-title {
+  color: var(--text-primary);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.profile-card, .section-card, .research-card, .team-card {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+.profile-card {
+  background: var(--bg-card);
+  padding: 2rem 1.4rem 1.5rem;
+}
+.profile-card::before { height: 3px; }
+.profile-card .profile-photo {
+  width: 116px;
+  height: 116px;
+  border-width: 2px;
+}
+.profile-card .profile-name { font-size: 1.22rem; }
+.section-card {
+  background: var(--bg-card);
+  padding: 1.6rem;
+}
+.section-card h2 { font-size: 1.3rem; }
+.news-item { padding: 0.85rem 0 !important; }
+.news-date {
+  font-size: 0.67rem !important;
+  letter-spacing: 0.1em !important;
+}
+.news-headline { font-size: 0.86rem !important; }
+h1, h2 { letter-spacing: -0.035em; }
+h1::after, h2::after { width: 2.5rem; height: 2px; }
+a { text-underline-offset: 0.2em; }
+a:not(.chip):hover { text-decoration-thickness: 2px; }
+.research-grid { gap: 1.25rem; }
+.research-card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+}
+.research-card .research-thumb { height: 220px; }
+.research-card .research-body { padding: 1.5rem; }
+.team-card { background: var(--bg-card); }
+.site-footer {
+  background: var(--bg-secondary);
+  margin-top: 5rem;
+  padding-top: 3.5rem;
+}
+.site-footer .footer-heading { color: var(--accent); }
+.site-footer .footer-copyright { letter-spacing: 0.08em; }
+
+@media (max-width: 900px) {
+  .home-grid { grid-template-columns: minmax(0, 1fr) 260px; gap: 1.75rem; }
+}
+@media (max-width: 767px) {
+  .site-container { padding-top: 2.5rem; }
+  .home-grid { grid-template-columns: 1fr; }
+  .home-hero { max-width: 12ch; font-size: clamp(3rem, 12vw, 4.5rem); }
+  .navbar { padding-inline: 1rem; }
+  .banner-frame img { aspect-ratio: 1.55 / 1; }
+  .section-card { padding: 1.2rem; }
+}
