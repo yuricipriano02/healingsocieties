@@ -1,0 +1,184 @@
+/* Healing Societies editorial redesign
+   A warm, contemporary research-lab identity inspired by the reference site's
+   restrained typography, generous spacing and editorial hierarchy. */
+
+:root {
+  --hs-ink: #263d3d;
+  --hs-muted: #687875;
+  --hs-paper: #f7f6f0;
+  --hs-white: #fffefa;
+  --hs-sage: #dce5dc;
+  --hs-line: #dce1d9;
+  --hs-rust: #ad7158;
+  --hs-deep: #243d3c;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background: var(--hs-paper);
+  color: var(--hs-ink);
+  font-family: "Inter", "Avenir Next", Avenir, sans-serif;
+  letter-spacing: -0.01em;
+}
+.site-container { max-width: 1240px; padding-top: clamp(2.5rem, 6vw, 5.5rem); }
+.navbar {
+  background: rgba(247,246,240,.94) !important;
+  border-bottom: 1px solid var(--hs-line);
+  backdrop-filter: blur(14px);
+  box-shadow: none !important;
+  padding: 1rem 0;
+}
+.navbar .container { max-width: 1240px !important; }
+.navbar-brand {
+  color: var(--hs-deep) !important;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: -.035em;
+}
+.navbar-brand img { width: 30px; height: 30px; margin-right: .45rem; }
+.navbar .nav-link {
+  color: #53645f !important;
+  font-size: .82rem;
+  font-weight: 600;
+  letter-spacing: .045em;
+  padding: .65rem .8rem !important;
+}
+.navbar .nav-link:hover, .navbar .nav-link.active { color: var(--hs-rust) !important; }
+.search-toggle, .dark-mode-toggle { color: var(--hs-deep) !important; }
+
+.home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 285px;
+  gap: clamp(2.5rem, 6vw, 6rem);
+  align-items: start;
+}
+.home-content { min-width: 0; }
+.home-hero {
+  max-width: 850px;
+  margin: 0 0 .65rem !important;
+  color: var(--hs-deep);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(3.2rem, 7vw, 6.8rem) !important;
+  font-weight: 500 !important;
+  letter-spacing: -.065em !important;
+  line-height: .98 !important;
+}
+.home-hero-sub {
+  margin: 0 0 2.2rem !important;
+  color: var(--hs-muted);
+  font-size: clamp(1rem, 1.8vw, 1.3rem) !important;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.chip-container { display: flex; flex-wrap: wrap; gap: .55rem; margin: 0 0 2rem; }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #cbd6cc !important;
+  border-radius: 999px !important;
+  background: #edf1e9 !important;
+  color: #425b52 !important;
+  padding: .55rem .9rem !important;
+  font-size: .78rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: background .2s ease, transform .2s ease;
+}
+.chip:hover { background: var(--hs-sage) !important; transform: translateY(-2px); }
+.banner-frame {
+  overflow: hidden;
+  margin: 2rem 0 2.4rem;
+  border-radius: 3px;
+  background: var(--hs-sage);
+  box-shadow: 0 18px 45px rgba(38,61,61,.09);
+}
+.banner-frame img { display: block; width: 100%; height: auto; object-fit: cover; }
+.home-content > p:not(.home-hero-sub) {
+  max-width: 760px;
+  color: #455955;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.15rem, 1.65vw, 1.42rem);
+  line-height: 1.75;
+}
+.home-content h2, .home-content h3 {
+  color: var(--hs-deep);
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 500;
+  letter-spacing: -.035em;
+}
+.home-content h2 { margin-top: 3.5rem; font-size: clamp(1.9rem, 3vw, 2.6rem); }
+.callout, .section-card {
+  border: 1px solid var(--hs-line) !important;
+  border-radius: 4px !important;
+  background: var(--hs-white) !important;
+  box-shadow: 0 12px 35px rgba(38,61,61,.045) !important;
+}
+.callout { margin: 2.5rem 0 !important; padding: 1.5rem !important; }
+.callout-title { color: var(--hs-deep); font-weight: 700; margin-bottom: .35rem; }
+.profile-card {
+  position: sticky;
+  top: 6rem;
+  border: 1px solid var(--hs-line);
+  border-radius: 4px;
+  background: var(--hs-white);
+  padding: 1.6rem 1.35rem;
+  box-shadow: 0 14px 40px rgba(38,61,61,.05);
+}
+.profile-photo { width: 112px !important; height: 112px !important; border-radius: 50% !important; object-fit: cover; }
+.profile-name {
+  margin: 1rem 0 .25rem !important;
+  color: var(--hs-deep);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem !important;
+  font-weight: 600;
+}
+.profile-title, .profile-institution { color: var(--hs-muted) !important; font-size: .86rem; }
+.profile-links { margin-top: 1rem; }
+.site-footer {
+  margin-top: 6rem;
+  border-top: 1px solid var(--hs-line);
+  background: #edf0e9;
+  color: #53645f;
+  padding: 3rem max(1.5rem, calc((100vw - 1240px)/2));
+}
+.footer-heading {
+  color: var(--hs-deep);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.site-footer a { color: #53645f; }
+.site-footer a:hover { color: var(--hs-rust); }
+a { text-underline-offset: .2em; }
+a:not(.chip):hover { color: var(--hs-rust); }
+::selection { background: #dce5dc; color: var(--hs-deep); }
+
+@media (max-width: 900px) {
+  .home-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .profile-card { position: static; max-width: 520px; }
+  .site-container { padding-top: 2.5rem; }
+}
+@media (max-width: 575px) {
+  .navbar-brand { font-size: 1rem; }
+  .home-hero { font-size: clamp(2.8rem, 14vw, 4.2rem) !important; }
+  .banner-frame { margin: 1.5rem 0 2rem; }
+  .site-footer { margin-top: 3.5rem; }
+}
+
+/* Preserve the site's existing dark-mode control while keeping the new palette coherent. */
+[data-theme="dark"] body, body.dark-mode {
+  --hs-paper: #172524;
+  --hs-white: #203331;
+  --hs-ink: #e7ece5;
+  --hs-muted: #b0beb6;
+  --hs-line: #3a504b;
+  --hs-deep: #e8eee6;
+  --hs-sage: #30453f;
+  background: var(--hs-paper);
+  color: var(--hs-ink);
+}
+[data-theme="dark"] .navbar, body.dark-mode .navbar { background: rgba(23,37,36,.94) !important; }
+[data-theme="dark"] .home-content > p:not(.home-hero-sub), body.dark-mode .home-content > p:not(.home-hero-sub) { color: #d0dbd2; }
+[data-theme="dark"] .chip, body.dark-mode .chip { background: #30453f !important; color: #e4ece4 !important; border-color: #50675d !important; }
+[data-theme="dark"] .site-footer, body.dark-mode .site-footer { background: #203331; color: #b0beb6; }
