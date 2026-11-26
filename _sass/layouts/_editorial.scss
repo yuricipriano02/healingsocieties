@@ -366,3 +366,26 @@ td, th { border-color: var(--border-color) !important; }
   .callout { align-items: flex-start; flex-direction: column; }
   .site-footer { padding: 2.5rem 1.25rem 1.5rem; }
 }
+
+
+// Homepage layout adjustment: hero and research introduction span the page;
+// the existing profile and news modules remain visible together underneath.
+.home-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.home-grid > .home-content { width: 100%; }
+.home-grid > div:last-child {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin-top: 3.5rem;
+}
+.home-grid > div:last-child .profile-card,
+.home-grid > div:last-child .section-card { height: 100%; margin-top: 0; }
+.home-content > p:first-of-type { margin-left: auto; margin-right: auto; }
+@media (max-width: 767px) {
+  .home-grid > div:last-child { grid-template-columns: 1fr; margin-top: 2rem; }
+}
