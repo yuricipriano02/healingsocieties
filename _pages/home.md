@@ -7,6 +7,19 @@ permalink: /
 <h1 class="home-hero">{{ site.name }}</h1>
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
+<!-- Animated line-art motif: a visual metaphor for connection and reconciliation. -->
+<div class="hero-animation" aria-hidden="true">
+  <svg class="hero-weave" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path class="weave-line weave-line-a" d="M92 116C166 14 282 14 356 116S546 218 620 116 764 14 838 116" />
+    <path class="weave-line weave-line-b" d="M92 116C166 218 282 218 356 116S546 14 620 116 764 218 838 116" />
+    <path class="weave-line weave-line-c" d="M92 116H808M356 116C356 65 397 35 450 35S544 65 544 116 503 197 450 197 356 167 356 116Z" />
+    <circle class="weave-node node-a" cx="92" cy="116" r="7" />
+    <circle class="weave-node node-b" cx="356" cy="116" r="7" />
+    <circle class="weave-node node-c" cx="544" cy="116" r="7" />
+    <circle class="weave-node node-d" cx="808" cy="116" r="7" />
+  </svg>
+</div>
+
 <!-- Research-area chips (link to /projects) -->
 <div class="chip-container" markdown="0">
 <a href="{{ '/projects' | relative_url }}" class="chip">Social Psychology</a>
