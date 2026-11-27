@@ -440,3 +440,27 @@ td, th { border-color: var(--border-color) !important; }
 @media (prefers-reduced-motion: reduce) {
   .weave-line, .weave-node { animation: none !important; }
 }
+
+
+// Keep the complete homepage illustration visible at every viewport width.
+// Match the SVG's 900:230 viewBox instead of forcing it into a short fixed-height box.
+.hero-animation {
+  width: min(100%, 900px);
+  height: auto;
+  aspect-ratio: 900 / 230;
+  min-height: 0;
+  overflow: visible;
+}
+.hero-weave {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 900 / 230;
+  overflow: visible;
+}
+@media (max-width: 600px) {
+  .hero-animation {
+    height: auto;
+    aspect-ratio: 900 / 230;
+    overflow: visible;
+  }
+}
