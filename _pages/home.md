@@ -39,7 +39,7 @@ permalink: /
   </div>
 </section>
 
-<section class="editorial-research" id="research" aria-labelledby="research-heading">
+<section class="editorial-research" aria-labelledby="research-heading">
   <div class="editorial-section-heading">
     <div>
       <p class="editorial-kicker"><span></span> Research areas</p>
